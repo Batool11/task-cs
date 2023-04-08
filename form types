@@ -1,1 +1,56 @@
+<html>
+<head>
+<title>task cs</title>
+<style>
+    div {
+      text-align: center;
+    }
+  </style>
 
+</head>
+<bady>
+ <div>
+    <p><img src="msg1184457734-5352.jpg"width="150px" height="150px"></p>
+    <h1>Inter Survy form</h1>
+  <form>
+    <form action="examples/pages/Confirmed.php" method="post">
+    <label for="username "> Enter your name :</label>
+     <input type="text" id="username " name="username">
+  <br><br>
+  <label for="email "> Enter your email : </label>
+  <input type="email" id="email " name="email">
+  <br><br>
+  <label for="information">Tell us a little about yourself:</label>
+  <textarea rows="4" cols="30" name="nformation" id="nformation"></textarea>
+   <br><br>
+   <label for="option"> Do you exercise at home? Yes</label>
+   <input type="radio" name="option" id="option">
+   <label for="option"> No</label>
+   <input type="radio" name="option" id="option">
+   <br>
+   <p>How do you to read about your favorite topics?</p>
+   <label for="books">Books</label>
+   <input type="checkbox" name="favorite" id="books">
+   <label for="phone apps">Phone apps</label>
+   <input type="checkbox" name="favorite" id="phone apps">
+   <label for="online resources">Online resources</label>
+   <input type="checkbox" name="favorite" id="online resources">
+   <label for="Magazines">Magazines</label>
+   <input type="checkbox" name="favorite" id="Magazines">
+   <br><br>
+   <label for="movies">What genre of movies do you like? </label>
+   <select name="movies" id="movies" >
+       <option value="comedy">comedy</option>
+       <option value="romance ">romance</option>
+       <option value="thriller">thriller</option>
+       <option value="horror">horror</option>
+   </select>
+   <br><br>
+   <input type="submit" value="Submit form">
+  </form>
+  <br>
+   <p>Learn more about us:</p>
+   <video src="video5875315622258151208.mp4" width="450px"height="450px"controls>  
+ </div>
+</bady>
+</html>
