@@ -12,8 +12,7 @@
  <div>
     <p><img src="msg1184457734-5352.jpg"width="150px" height="150px"></p>
     <h1>Inter Survy form</h1>
-  <form>
-    <form action="examples/pages/Confirmed.php" method="post">
+   <form action="Confirmed.php" method="post">
     <label for="username "> Enter your name :</label>
      <input type="text" id="username " name="username">
   <br><br>
